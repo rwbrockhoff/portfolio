@@ -9,7 +9,28 @@ div.Main {
   flex-direction: column;
 }
 
+div.stars {
+  height: 100vh;
+  width: 200%;
+  opacity: 0.2;
+  position: fixed;
+  z-index: 3;
+  animation: stars 7s infinite;
+  background-image: url('./assets/stars.svg')
+}
 
+@keyframes stars {
+  0% {
+    margin-left: 0vw;
+  }
+  50% {
+    margin-left: -100vw;
+    opacity: 0.5;
+  }
+  100% {
+    margin-left: 0vw;
+  }
+}
 div.mainHeader {
   height: 100vh;
   background-image: url('./assets/back.svg');

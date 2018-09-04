@@ -10,7 +10,8 @@ class App extends Component {
     return (
       <div className="App">
       <div className="Main">
-      
+      <div class='stars'>
+      </div>
       
     
       <div className='mainHeader'>
