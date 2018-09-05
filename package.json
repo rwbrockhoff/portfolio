@@ -6,6 +6,7 @@
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
     "react-scripts": "1.1.5",
+    "smooth-scroll": "^14.2.1",
     "smoothscroll": "^0.4.0",
     "wowjs": "^1.1.3"
   },

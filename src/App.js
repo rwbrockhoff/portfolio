@@ -3,8 +3,6 @@ import './App.css';
 import logo from './assets/logo.svg'
 import profile from './assets/profile.png'
 import WOW from 'wowjs'
-import smoothScroll from 'smoothscroll'
-
 import HTML from './assets/icons/html.png'
 import CSS from './assets/icons/css.png'
 import JS from './assets/icons/js.jpg'
@@ -12,11 +10,22 @@ import REACT from './assets/icons/react.png'
 import VUE from './assets/icons/vue.png'
 import NODE from './assets/icons/node.png'
 import EXP from './assets/icons/express.png'
-var aboutscroll= document.querySelector('.aboutleft');
+var smoothScroll = require('smoothscroll');
+
 class App extends Component {
+  constructor(){
+    super()
+
+  }
+
+  handleScroll(location){
+    var destination = document.querySelector(`.${location}`);
+    smoothScroll(destination)
+  }
   
   render() {
     
+
       const wow = new WOW.WOW();
       wow.init();
       
@@ -34,10 +43,11 @@ class App extends Component {
       <p>brockhoff</p>
       </div>
       <navbar>
-        <li>about</li>
-        <li>skills</li>
-        <li>projects</li>
-        <li>contact</li>
+      
+        <li onClick={() => this.handleScroll('mainBody')}>about</li>
+        <li onClick={() => this.handleScroll('influences')}>skills</li>
+        <li onClick={() => this.handleScroll('bottom')}>projects</li>
+        <li onClick={() => this.handleScroll('bottom')}>contact</li>
       </navbar>
         <div className='headertext'>
         <h1 className="wow fadeIn">my name is ryan.</h1>
