@@ -4,17 +4,28 @@ import logo from './assets/logo.svg'
 import profile from './assets/profile.png'
 import { Parallax, Background } from 'react-parallax';
 import WOW from 'wowjs'
+import smoothScroll from 'smoothscroll'
 
+import HTML from './assets/icons/html.png'
+import CSS from './assets/icons/css.png'
+import JS from './assets/icons/js.jpg'
+import REACT from './assets/icons/react.png'
+import VUE from './assets/icons/vue.png'
+import NODE from './assets/icons/node.png'
+import EXP from './assets/icons/express.png'
+var aboutscroll= document.querySelector('.aboutleft');
 class App extends Component {
+  
   render() {
     
       const wow = new WOW.WOW();
       wow.init();
-    
+      
+      
     return (
       <div className="App">
       <div className="Main">
-      <div class='stars'>
+      <div className='stars'>
       </div>
       
     
@@ -54,6 +65,16 @@ class App extends Component {
       </div>
       </div>
       
+      </div>
+      <h1 className="skillsTitle">skills</h1>
+      <div className="skills">
+        <div className="indivIcon wow fadeInUp" data-wow-delay="0.1s"><img className="wow fadeInUp" src={HTML}/><p>html</p></div>
+        <div className="indivIcon wow fadeInUp" data-wow-delay="0.15s"><img className="wow fadeInUp" src={CSS}/><p>css</p></div>
+        <div className="indivIcon wow fadeInUp" data-wow-delay="0.2s"><img className="wow fadeInUp" src={JS}/><p>javascript</p></div>
+        <div className="indivIcon wow fadeInUp" data-wow-delay="0.25s"><img className="wow fadeInUp" src={REACT}/><p>react</p></div>
+        <div className="indivIcon wow fadeInUp" data-wow-delay="0.3s"><img className="wow fadeInUp" src={VUE}/><p>vue</p></div>
+        <div className="indivIcon wow fadeInUp" data-wow-delay="0.35s"><img className="wow fadeInUp" src={NODE}/><p>node</p></div>
+        <div className="indivIcon wow fadeInUp" data-wow-delay="0.4s"><img className="wow fadeInUp" src={EXP}/><p>express</p></div>
       </div>
       <div className='bottom'>
   
