@@ -10,6 +10,7 @@ import REACT from './assets/icons/react.png'
 import VUE from './assets/icons/vue.png'
 import NODE from './assets/icons/node.png'
 import EXP from './assets/icons/express.png'
+import ADOBE from './assets/icons/adobe.png'
 var smoothScroll = require('smoothscroll');
 
 class App extends Component {
@@ -58,7 +59,7 @@ class App extends Component {
       
         <li onClick={() => this.handleScroll('mainBody')}>about</li>
         <li onClick={() => this.handleScroll('influences')}>skills</li>
-        <li onClick={() => this.handleScroll('bottom')}>projects</li>
+        <li onClick={() => this.handleScroll('projectsTitle')}>projects</li>
         <li onClick={() => this.handleScroll('bottom')}>contact</li>
       </navbar>
       
@@ -98,9 +99,19 @@ class App extends Component {
         <div className="indivIcon wow fadeInUp" data-wow-delay="0.3s"><img className="wow fadeInUp" src={VUE}/><p>vue</p></div>
         <div className="indivIcon wow fadeInUp" data-wow-delay="0.35s"><img className="wow fadeInUp" src={NODE}/><p>node</p></div>
         <div className="indivIcon wow fadeInUp" data-wow-delay="0.4s"><img className="wow fadeInUp" src={EXP}/><p>express</p></div>
+        <div className="indivIcon wow fadeInUp" data-wow-delay="0.4s"><img className="wow fadeInUp" src={ADOBE}/><p>adobe creative suite</p></div>
       </div>
-      <h1><center>projects</center></h1>
+      <h1 className="projectsTitle"><center>projects</center></h1>
       <div className="projects">
+      <div className="projectbox wow fadeInUp">
+      <h1 className="projectitle">duly notes</h1>
+      </div>
+      <div className="projectbox wow fadeInUp">
+      <h1 className="projectitle">akt</h1>
+      </div>
+      <div className="projectbox wow fadeInUp">
+      <h1 className="projectitle">group</h1>
+      </div>
       
 
       </div>

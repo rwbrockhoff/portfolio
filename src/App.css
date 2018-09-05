@@ -187,6 +187,7 @@ div.skills {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  margin-bottom: 100px;
   
 }
 
@@ -199,10 +200,32 @@ div.indivIcon {
 }
 
 div.projects {
-  height: 100vh;
-  color: beige;
-  display: grid;
+  height: 180vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 100px;
+  position: relative;
+  z-index: 2;
+  margin-top: -40px;
+}
 
+div.projectbox {
+  height: 60vh;
+  width: 90vw;
+  background: #f7f5f5;
+  margin-bottom: 60px;
+}
+/* 7c29cb */
+h1.projectitle {
+  background: white;
+  color: #2814c5;
+  border-radius: 0px 0px 15px 0px;
+  width: 15%;
+  padding: 10px 10px;
+  margin-top: 0;
+  text-align: center;
 }
 
 div.bottom {
