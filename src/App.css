@@ -1,9 +1,7 @@
 body {
   font-family: Avenir;
 }
-img {
-  height: 30px;
-}
+
 div.Main {
   display: flex;
   flex-direction: column;
@@ -14,8 +12,8 @@ div.stars {
   width: 200%;
   opacity: 0.2;
   position: fixed;
-  z-index: 3;
-  animation: stars 7s infinite;
+  z-index: 1;
+  animation: stars 10s infinite;
   background-image: url('./assets/stars.svg')
 }
 
@@ -91,6 +89,79 @@ div.headertext {
 
 div.mainBody {
   height: 100vh;
+  z-index:2;
+  position: relative;
+}
+
+div.about {
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+div.about h1 {
+  font-size: 2.5em;
+}
+div.about i {
+  color: #e4e4e4;
+}
+h1.abouttext {
+  font-size: 3em;
+  margin-top: -10vh;
+}
+
+div.aboutsection {
+  display: grid;
+  height: 50vh;
+  width: 100%;
+  grid-template-columns: 40% 60%;
+  margin-top: 12vh;
+  
+}
+div.aboutleft {
+  grid-column: 1;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h2.aboutTitle {
+  transform: rotate(-90deg);
+  text-transform: uppercase;
+  width: 100%;
+  letter-spacing: 10px;
+  font-size: 1.7em;
+}
+div.aboutleft img {
+  height:350px;
+  border-radius: 175px;
+}
+div.aboutright {
+  grid-column: 2;
+  height: 70vh;
+  font-size: 1.5em;
+  padding-left: 10%;
+  padding-right: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+div.influences {
+  height: 5vh;
+  width: 60%;
+  background: #f7f5f5;
+  text-align: center;
+  border-radius: 0px 15px 0px 15px;
+}
+div.influences a {
+  text-decoration: none;
+  color: #525252;
+  margin: 0px 20px;
+  font-size: 0.8em;
 }
 
 div.bottom {
