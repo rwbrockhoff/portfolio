@@ -15,8 +15,20 @@ var smoothScroll = require('smoothscroll');
 class App extends Component {
   constructor(){
     super()
-
+    this.state = {
+      position: 'RESEARCHER'
+    }
   }
+
+  componentDidMount(){
+    setTimeout(() => {
+      this.setState({position: 'DESIGNER'})
+    },1000)
+    setTimeout(() => {
+      this.setState({position: 'WEB DEVELOPER'})
+    },2000)
+  }
+
 
   handleScroll(location){
     var destination = document.querySelector(`.${location}`);
@@ -49,9 +61,11 @@ class App extends Component {
         <li onClick={() => this.handleScroll('bottom')}>projects</li>
         <li onClick={() => this.handleScroll('bottom')}>contact</li>
       </navbar>
+      
         <div className='headertext'>
-        <h1 className="wow fadeIn">my name is ryan.</h1>
-        <h2 className="wow fadeIn">& I'M A WEB DEVELOPER. </h2>
+        <h1 >ryan brockhoff</h1>
+        <div className='changePosition'>
+        <h2>{this.state.position}.</h2></div>
         </div>
       </div>
      </div>
@@ -85,9 +99,15 @@ class App extends Component {
         <div className="indivIcon wow fadeInUp" data-wow-delay="0.35s"><img className="wow fadeInUp" src={NODE}/><p>node</p></div>
         <div className="indivIcon wow fadeInUp" data-wow-delay="0.4s"><img className="wow fadeInUp" src={EXP}/><p>express</p></div>
       </div>
-      <div className='bottom'>
-  
+      <h1><center>projects</center></h1>
+      <div className="projects">
+      
+
       </div>
+
+      <div className='bottom'>
+      </div>
+
       <div className='footericons'>
         <p style={{marginBottom: '-5px'}}>
          <a href='https://github.com/rwbrockhoff'> <i className="fab fa-github"/></a>
