@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import './App.css';
 import logo from './assets/logo.svg'
 import profile from './assets/profile.png'
-import { Parallax, Background } from 'react-parallax';
 import WOW from 'wowjs'
 import smoothScroll from 'smoothscroll'
 
