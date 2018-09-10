@@ -216,6 +216,9 @@ div.projectbox {
   width: 90vw;
   background: #f7f5f5;
   margin-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 /* 7c29cb */
 h1.projectitle {
@@ -223,9 +226,69 @@ h1.projectitle {
   color: #2814c5;
   border-radius: 0px 0px 15px 0px;
   width: 15%;
+  height: 45px;
   padding: 10px 10px;
   margin-top: 0;
   text-align: center;
+}
+
+div.projectbox button {
+  background: #2814c5;
+  color: white;
+  border-radius: 5px;
+  height: 30px;
+  outline: none;
+  font-size: 0.9em;
+}
+
+div.buttonHolder {
+  width: 15%;
+  height: 30px;
+  margin-bottom: 20px;
+  padding: 20px 10px;
+  display: flex;
+  justify-content: space-evenly;
+  position: absolute;
+  left: 275px;
+}
+
+
+div.projectbox button:hover {
+  background: #3118f3;
+}
+
+div.projectText {
+  width: 45vw;
+  height: fit-content;
+  padding: 20px 20px;
+  margin-left: 20px;
+  margin-top: -15px;
+  font-size: 1.2em;
+}
+
+div.screen {
+  height: 100%;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 325px;
+}
+img.mac {
+  width: 450px;
+}
+
+img.iphone {
+  width: 450px;
+  margin-right: 250px;
+}
+
+img.demo {
+  width: 300px;
+  height: 200px;
+  position: relative;
+  right: 375px;
+  bottom: 5px;
 }
 
 div.bottom {
