@@ -65,7 +65,7 @@ class App extends Component {
         <li onClick={() => this.handleScroll('mainBody')}>about</li>
         <li onClick={() => this.handleScroll('influences')}>skills</li>
         <li onClick={() => this.handleScroll('projectsTitle')}>projects</li>
-        <li onClick={() => this.handleScroll('bottom')}>contact</li>
+        <li onClick={() => this.handleScroll('form')}>contact</li>
       </navbar>
       
         <div className='headertext'>
@@ -114,10 +114,10 @@ class App extends Component {
       <h1 className="projectitle">duly notes</h1>
 
           <div className="buttonHolder">
-          <a href="https://www.dulynotes.com/#/"><button> <i className="fas fa-bolt"/> live site </button></a>
+          <a href="https://www.dulynotes.com/#/"><button className="portButton wow fadeIn"> <i className="fas fa-bolt"/> live site </button></a>
 
           <a href="https://rwbrockhoff.github.io/note/ 
-"><button><i className="fab fa-github"/> github </button></a>
+"><button className="portButton wow fadeIn"><i className="fab fa-github"/> github </button></a>
           </div>
           <br/>
           <div className="projectText">
@@ -139,9 +139,9 @@ class App extends Component {
       <h1 className="projectitle">akt</h1>
 
       <div className="buttonHolder">
-          <a href="https://aktlist.com/#/"><button> <i className="fas fa-bolt"/> live site </button></a>
+          <a href="https://aktlist.com/#/"><button className="portButton wow fadeIn"> <i className="fas fa-bolt"/> live site </button></a>
 
-          <a href="https://rwbrockhoff.github.io/tovue/"><button><i className="fab fa-github"/> github </button></a>
+          <a href="https://rwbrockhoff.github.io/tovue/"><button className="portButton wow fadeIn"><i className="fab fa-github"/> github </button></a>
           </div>
           <br/>
           <div className="projectText">
@@ -163,10 +163,10 @@ class App extends Component {
       <h1 className="projectitle">oranges</h1>
 
       <div className="buttonHolder">
-          <a href="https://www.dulynotes.com/#/"><button> <i className="fas fa-bolt"/> live site </button></a>
+          <a href="https://www.dulynotes.com/#/"><button className="portButton wow fadeIn"> <i className="fas fa-bolt"/> live site </button></a>
 
           <a href="https://rwbrockhoff.github.io/note/ 
-"><button><i className="fab fa-github"/> github </button></a>
+"><button className="portButton wow fadeIn"><i className="fab fa-github"/> github </button></a>
           </div>
           <br/>
           <div className="projectText">
@@ -185,6 +185,18 @@ class App extends Component {
       
 
       </div>
+
+
+      <div className='contactContainer'>
+        <div className='form'>
+        <h1>contact me</h1>
+        <input class="contact" type="text" placeholder="Name..."/>
+        <input class="contact" type="text" placeholder="Email..."/>
+        <textarea placeholder="Message..."/>
+        <button className="portButton wow fadeIn"><i className="far fa-envelope"/>&nbsp; send </button>
+        </div>
+      </div>
+
 
       <div className='bottom'>
       </div>
