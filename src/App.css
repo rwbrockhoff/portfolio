@@ -5,6 +5,7 @@ body {
 div.Main {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
 }
 
 div.stars {
@@ -315,6 +316,10 @@ div.form button {
   width: 54%;
 }
 
+div.form button:hover {
+  background: #3118f3;
+}
+
 input.contact {
   width: 50%;
   height: 20px;
@@ -397,3 +402,137 @@ div.footericons i {
   margin-right: 15px;
   
 }
+
+@media all and (max-width: 480px) { 
+  div.Main {
+    max-width: 100%;
+    margin-top: -6px;
+  }
+  navbar {
+    display: none;
+  }
+  div.mainHeader h1 {
+    font-size: 3em;
+  }
+  div.mainHeader h2 {
+    font-size: 1em;
+    font-weight: 200;
+    margin-top: -20px;
+    letter-spacing: 2px;
+  }
+  div.headertext {
+    margin-bottom: 250px;
+  }
+  div.aboutsection {
+    display: flex;
+    flex-direction: column;
+    height: 200vh;
+    width: 100%;
+    margin-top: 25vh;
+    margin-bottom: 90vh;
+  }
+  div.aboutleft {
+    height: 70vh;
+    margin-top: 10vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  h2.aboutTitle {
+    transform: none;
+    text-transform: none;
+    width: 100%;
+    letter-spacing: 0px;
+    font-size: 2em;
+    margin-bottom: 60px;
+    text-align: center;
+  }
+
+  div.aboutright {
+    height: 100vh;
+    font-size: 1.4em;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  div.skills {
+    height: 50vh;
+    width: 100%;
+    padding: 30px 0px;
+    max-width: 100%;
+    background: #f7f5f5;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    margin-bottom: 100px;
+    
+  }
+
+  h1.skillsTitle {
+    margin-top: 40vh;
+    margin-bottom: 0;
+    padding-top: 40px;
+  }
+
+  div.skills img {
+    height: 50px;
+    padding: 0px 15px;
+  }
+  
+  div.indivIcon {
+    text-align: center;
+  }
+
+  div.influences {
+    width: 100%;
+    padding: 5px 0px;
+    font-size: 0.9em;
+  }
+
+  div.projectbox {
+    height: 100vh;
+    width: 90vw;
+    background: #f7f5f5;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  div.screen {
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:0;
+  }
+  img.mac {
+    width: 400px;
+    display: none;
+  }
+  
+  img.iphone {
+    width: 400px;
+    margin-right: 250px;
+    display: none;
+  }
+  
+  img.demo {
+    width: 270px;
+    height: 170px;
+    position: relative;
+    right: 335px;
+    bottom: 5px;
+    display: none;
+  }
+ }
