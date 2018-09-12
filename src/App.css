@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Mukta+Malar:400,700');
+
 body {
-  font-family: Avenir;
+  font-family: 'Mukta Malar';
 }
 
 div.Main {
