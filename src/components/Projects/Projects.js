@@ -5,6 +5,7 @@ import dulyScreen from '../../assets/duly_screen.gif'
 import aktScreen from '../../assets/akt.gif'
 import mac from '../../assets/mac.png'
 import iphone from '../../assets/iphone.png'
+import orangesDemo from '../../assets/orangesdemo.gif'
 
 
 export default class Projects extends Component {
@@ -66,10 +67,10 @@ export default class Projects extends Component {
         <h1 className="projectitle">oranges</h1>
   
         <div className="buttonHolder">
-            <a href="https://www.dulynotes.com/#/"><button className="portButton wow fadeIn"> <i className="fas fa-bolt"/> live site </button></a>
+            
+            {/* {/* <a href="https://www.dulynotes.com/#/"><button className="portButton wow fadeIn"> <i className="fas fa-bolt"/> live site </button></a> */}
   
-            <a href="https://rwbrockhoff.github.io/note/ 
-  "><button className="portButton wow fadeIn"><i className="fab fa-github"/> github </button></a>
+            <a href="https://rwbrockhoff.github.io/oranges/"><button className="portButton wow fadeIn"><i className="fab fa-github"/> github </button></a> 
             </div>
             <br/>
             <div className="projectText">
@@ -80,9 +81,9 @@ export default class Projects extends Component {
             <li> Emphasis on responsive design </li>
             </div>
   
-            <div className="screen wow fadeInRight">
+            <div className="screen wow fadeInRight" style={{paddingLeft:'50px'}}>
             <img className="iphone" src={iphone}/>
-            {/* <img className="demo" src={dulyScreen}/> */}
+            <img className="demo-mobile" src={orangesDemo}/>
             </div>
         </div>
         </div>

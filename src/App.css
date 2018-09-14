@@ -163,6 +163,7 @@ div.aboutright {
 div.influences {
   height: 5vh;
   width: 60%;
+  padding-bottom: 10px;
   background: #f7f5f5;
   text-align: center;
   border-radius: 0px 15px 0px 15px;
@@ -297,6 +298,18 @@ img.demo {
   position: relative;
   right: 375px;
   bottom: 5px;
+}
+
+img.demo-mobile {
+  width: 110px;
+  height: 200px;
+  position: relative;
+  right: 535px;
+  bottom: 5px;
+}
+
+div.mobile {
+  margin-right: 80px;
 }
 
 div.contactContainer {
