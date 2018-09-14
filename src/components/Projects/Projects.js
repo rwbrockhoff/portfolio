@@ -48,7 +48,7 @@ export default class Projects extends Component {
             </div>
             <br/>
             <div className="projectText">
-            <p> A full-stack todo list app built with Vue to demonstrate enthusiam towards new technology. Akt uses Vuex, Vue Routing, Bootstrap, Auth0, and Postgres. </p> 
+            <p> A full-stack todo list app built with Vue to demonstrate enthusiam towards new technology. Akt is built as a clone of Wunderlist. Akt uses Vuex, Vue Routing, Bootstrap, Auth0, and Postgres.  </p> 
   
             <li> Uses Vuex for state management </li>
             <li> Design incorporates Bootstrap components </li>
@@ -73,11 +73,11 @@ export default class Projects extends Component {
             </div>
             <br/>
             <div className="projectText">
-            <p> A full-stack note-taking app created to solidify proficiency in React, while delving into extensive libraries such as Stripe (Elements, Subscription), and Medium-Draft (Draft.js). </p> 
+            <p> A full-stack, responsive game based on Apples to Apples. Built mobile-first in React, using socket.io as the bulk of the technology to communicate game information.</p> 
   
-            <li> Received 1st Place, Best Overall Award </li>
-            <li> Design is customizable for each user's preferences </li>
-            <li> Uses a custom pomodoro to keep users focused on tasks </li>
+            <li> Utilizes socket.io for web-socket communication</li>
+            <li> Focus on animation and game-like immersion </li>
+            <li> Emphasis on responsive design </li>
             </div>
   
             <div className="screen wow fadeInRight">

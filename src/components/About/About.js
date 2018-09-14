@@ -13,7 +13,7 @@ export default () => {
       <img src={profile}/>
       </div>
       <div className="aboutright">
-      <p>I grew up in the Midwest, lived overseas in Spain, and flew around the world on 13 one way flights. All before starting a sucessful elopement photography business out of our company van (Moonbeam). My main draw to web development started when I was researching a concept called flow-state. Since then, I've overhauled my life to focus exclusively on becoming the best developer I can. Almost finished with a Bachelors in Human Factors Psychology--intuitive design, group productivity, and efficient human systems are at the core of my interests. Lastly, just for fun, my core principals + greatest influences: </p>
+      <p>I grew up in the Midwest, lived overseas in Spain, and flew around the world on 13 one way flights. All before starting a successful elopement photography business out of our company van (Moonbeam). I studied Human Factors Psychology (intuitive design, group productivity, and efficient human systems), which led me to web development. Since then, I've overhauled my life to focus exclusively on becoming the best developer I can. I have high hopes of combining these interests into a fulfilling career. Lastly, just for fun, my core principals + greatest influences: </p>
       <div className="influences">
       <a href="https://inside.bwater.com/publications/principles_excerpt">ray dalio</a>
       <a href="https://www.youtube.com/watch?v=gXuSMjrx_e8&t=424s">les brown</a>
