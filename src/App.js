@@ -3,7 +3,7 @@ import './App.css';
 
 import WOW from 'wowjs'
 
-import profile from './assets/profile.png'
+
 
 import Header from './components/Header/Header'
 import About from './components/About/About'

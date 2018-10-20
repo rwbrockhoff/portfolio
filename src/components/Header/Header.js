@@ -35,7 +35,7 @@ export default class Header extends Component {
       
         <div className='mainHeader'>
         <div className='logobar'>
-        <img className='logo' src={logo}/>
+        <img className='logo' src={logo} alt="logo"/>
         <p>brockhoff</p>
         </div>
         <navbar>
