@@ -99,11 +99,11 @@ export default class Projects extends Component {
             </div>
             <br/>
             <div className="projectText">
-            <p> A full-stack, responsive game based on Apples to Apples. Built mobile-first in React, using socket.io as the bulk of the technology to communicate game information.</p> 
+            <p> React Native application for the pomodoro technique, using a custom built timer, React Native elements, and Animatable for animations. All graphics designed in Illustrator for app launch on the Play Store. </p> 
   
-            <li> Utilizes socket.io for web-socket communication</li>
-            <li> Focus on animation and game-like immersion </li>
-            <li> Emphasis on responsive design </li>
+            <li> Released React Native application </li>
+            <li> Emphasis on animation and native elements </li>
+            <li> Develop understanding of Gradle and build releases </li>
             </div>
   
             <div className="screen wow fadeInLeft" style={{paddingLeft:'50px'}}>
