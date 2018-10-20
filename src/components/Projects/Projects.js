@@ -92,7 +92,7 @@ export default class Projects extends Component {
   
         <div className="buttonHolder">
             
-            <a href="https://play.google.com/store/apps/details?id=com.blok"><button className="portButton wow fadeIn"> <i className="fas fa-bolt"/> play store </button></a>
+            <a href="https://play.google.com/store/apps/details?id=com.blok"><button className="portButton wow fadeIn"> <i className="fab fa-google-play"/> play store </button></a>
   
             <a href="https://github.com/rwbrockhoff/blok"><button className="portButton wow fadeIn"><i className="fab fa-github"/> github </button></a> 
             </div>
