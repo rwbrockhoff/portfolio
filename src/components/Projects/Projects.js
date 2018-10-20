@@ -38,31 +38,6 @@ export default class Projects extends Component {
             <img className="demo" src={dulyScreen}/>
             </div>
         </div>
-  
-        <div className="projectbox wow fadeInUp">
-  
-        <h1 className="projectitle">akt</h1>
-  
-        <div className="buttonHolder">
-            <a href="https://aktlist.com/#/"><button className="portButton wow fadeIn"> <i className="fas fa-bolt"/> live site </button></a>
-  
-            <a href="https://rwbrockhoff.github.io/tovue/"><button className="portButton wow fadeIn"><i className="fab fa-github"/> github </button></a>
-            </div>
-            <br/>
-            <div className="projectText">
-            <p> A full-stack todo list app built with Vue to demonstrate enthusiam towards new technology. Akt is built as a clone of Wunderlist. Akt uses Vuex, Vue Routing, Bootstrap, Auth0, and Postgres.  </p> 
-  
-            <li> Uses Vuex for state management </li>
-            <li> Design incorporates Bootstrap components </li>
-            <li> Stores data as an array type in Postgres </li>
-            </div>
-  
-            <div className="screen wow fadeInLeft">
-            <img className="mac" src={mac}/>
-            <img className="demo" src={aktScreen}/>
-            </div>
-  
-        </div>
         <div className="projectbox wow fadeInUp">
   
         <h1 className="projectitle">oranges</h1>
@@ -87,6 +62,32 @@ export default class Projects extends Component {
             <img className="demo-mobile" src={orangesDemo}/>
             </div>
         </div>
+        
+        <div className="projectbox wow fadeInUp">
+  
+        <h1 className="projectitle">akt</h1>
+  
+        <div className="buttonHolder">
+            <a href="https://aktlist.com/#/"><button className="portButton wow fadeIn"> <i className="fas fa-bolt"/> live site </button></a>
+  
+            <a href="https://rwbrockhoff.github.io/tovue/"><button className="portButton wow fadeIn"><i className="fab fa-github"/> github </button></a>
+            </div>
+            <br/>
+            <div className="projectText">
+            <p> A full-stack todo list app built with Vue to demonstrate enthusiam towards new technology. Akt is built as a clone of Wunderlist. Akt uses Vuex, Vue Routing, Bootstrap, Auth0, and Postgres.  </p> 
+  
+            <li> Uses Vuex for state management </li>
+            <li> Design incorporates Bootstrap components </li>
+            <li> Stores data as an array type in Postgres </li>
+            </div>
+  
+            <div className="screen wow fadeInLeft">
+            <img className="mac" src={mac}/>
+            <img className="demo" src={aktScreen}/>
+            </div>
+  
+        </div>
+        
         <div className="projectbox wow fadeInUp">
   
         <h1 className="projectitle">blok</h1>
