@@ -3,6 +3,7 @@ import WOW from 'wowjs'
 
 import dulyScreen from '../../assets/duly_screen.gif'
 import aktScreen from '../../assets/akt.gif'
+import blokScreen from '../../assets/blok.gif'
 import mac from '../../assets/mac.png'
 import iphone from '../../assets/iphone.png'
 import orangesDemo from '../../assets/orangesdemo.gif'
@@ -105,9 +106,9 @@ export default class Projects extends Component {
             <li> Emphasis on responsive design </li>
             </div>
   
-            <div className="screen wow fadeInRight" style={{paddingLeft:'50px'}}>
+            <div className="screen wow fadeInLeft" style={{paddingLeft:'50px'}}>
             <img className="iphone" src={iphone}/>
-            <img className="demo-mobile" src={orangesDemo}/>
+            <img className="demo-mobile" src={blokScreen}/>
             </div>
         </div>
 
