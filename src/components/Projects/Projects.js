@@ -68,7 +68,7 @@ export default class Projects extends Component {
   
         <div className="buttonHolder">
             
-            {/* {/* <a href="https://www.dulynotes.com/#/"><button className="portButton wow fadeIn"> <i className="fas fa-bolt"/> live site </button></a> */}
+            <a href="https://oranges2oranges2.firebaseapp.com/"><button className="portButton wow fadeIn"> <i className="fas fa-bolt"/> live site </button></a>
   
             <a href="https://rwbrockhoff.github.io/oranges/"><button className="portButton wow fadeIn"><i className="fab fa-github"/> github </button></a> 
             </div>
@@ -86,6 +86,8 @@ export default class Projects extends Component {
             <img className="demo-mobile" src={orangesDemo}/>
             </div>
         </div>
+
+        
         </div>
     )
   }
