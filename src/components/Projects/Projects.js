@@ -86,7 +86,32 @@ export default class Projects extends Component {
             <img className="demo-mobile" src={orangesDemo}/>
             </div>
         </div>
+        <div className="projectbox wow fadeInUp">
+  
+        <h1 className="projectitle">blok</h1>
+  
+        <div className="buttonHolder">
+            
+            <a href="https://play.google.com/store/apps/details?id=com.blok"><button className="portButton wow fadeIn"> <i className="fas fa-bolt"/> play store </button></a>
+  
+            <a href="https://github.com/rwbrockhoff/blok"><button className="portButton wow fadeIn"><i className="fab fa-github"/> github </button></a> 
+            </div>
+            <br/>
+            <div className="projectText">
+            <p> A full-stack, responsive game based on Apples to Apples. Built mobile-first in React, using socket.io as the bulk of the technology to communicate game information.</p> 
+  
+            <li> Utilizes socket.io for web-socket communication</li>
+            <li> Focus on animation and game-like immersion </li>
+            <li> Emphasis on responsive design </li>
+            </div>
+  
+            <div className="screen wow fadeInRight" style={{paddingLeft:'50px'}}>
+            <img className="iphone" src={iphone}/>
+            <img className="demo-mobile" src={orangesDemo}/>
+            </div>
+        </div>
 
+        
         
         </div>
     )
