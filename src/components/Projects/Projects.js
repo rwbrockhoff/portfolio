@@ -7,6 +7,7 @@ import blokScreen from '../../assets/blok.gif'
 import mac from '../../assets/mac.png'
 import iphone from '../../assets/iphone.png'
 import orangesDemo from '../../assets/orangesdemo.gif'
+import lookingFoxDemo from '../../assets/lookingFoxScreen.gif'
 
 
 export default class Projects extends Component {
@@ -57,7 +58,7 @@ export default class Projects extends Component {
             <li> Emphasis on responsive design </li>
             </div>
   
-            <div className="screen wow fadeInRight" style={{paddingLeft:'50px'}}>
+            <div className="screen wow fadeInLeft" style={{paddingLeft:'50px'}}>
             <img className="iphone" src={iphone}/>
             <img className="demo-mobile" src={orangesDemo}/>
             </div>
@@ -81,7 +82,7 @@ export default class Projects extends Component {
             <li> Stores data as an array type in Postgres </li>
             </div>
   
-            <div className="screen wow fadeInLeft">
+            <div className="screen wow fadeInRight">
             <img className="mac" src={mac}/>
             <img className="demo" src={aktScreen}/>
             </div>
@@ -112,6 +113,32 @@ export default class Projects extends Component {
             <img className="demo-mobile" src={blokScreen}/>
             </div>
         </div>
+
+
+
+        <div className="projectbox wow fadeInUp">
+  
+  <h1 className="projectitle">looking fox</h1>
+
+            <div className="buttonHolder">
+                <a href="https://www.lookingfox.com"><button className="portButton wow fadeIn"> <i className="fas fa-bolt"/> live site </button></a>
+    
+                <a href="https://rwbrockhoff.github.io/ecrm/"><button className="portButton wow fadeIn"><i className="fab fa-github"/> github </button></a>
+            </div>
+      <br/>
+      <div className="projectText">
+      <p> CRM web application built in React for professional photographers. Focuses on reusable components, using many tables and joins in Postgres, and incorporating Material UI and Bootstrap for a clean design.</p> 
+
+      <li> Focuses on reusable components </li>
+      <li> Uses complex table relations in Postgres </li>
+      <li> Incorporates Material UI and Bootstrap </li>
+      </div>
+
+            <div className="screen wow fadeInRight">
+            <img className="mac" src={mac}/>
+            <img className="demo" src={lookingFoxDemo}/>
+            </div>
+  </div>
 
         
         

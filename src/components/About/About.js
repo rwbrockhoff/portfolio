@@ -1,6 +1,5 @@
 import React from 'react'
 import WOW from 'wowjs'
-
 import profile from '../../assets/profile.png'
 
 export default () => {
