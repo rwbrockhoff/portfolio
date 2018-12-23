@@ -26,7 +26,7 @@ export default class Projects extends Component {
   "><button className="portButton wow fadeIn"><i className="fab fa-github"/> github </button></a>
             </div>
             <br/>
-            <div className="projectText">
+            <div className="project-text flex column">
             <p> A full-stack note-taking app created to solidify proficiency in React, while delving into extensive libraries such as Stripe (Elements, Subscription), and Medium-Draft (Draft.js). </p> 
   
             <li> Received 1st Place, Best Overall Award </li>
@@ -34,7 +34,7 @@ export default class Projects extends Component {
             <li> Uses a custom pomodoro to keep users focused on tasks </li>
             </div>
   
-            <div className="screen wow fadeInRight">
+            <div className="screen center wow fadeInRight">
             <img className="mac" src={mac}/>
             <img className="demo" src={dulyScreen}/>
             </div>
@@ -50,7 +50,7 @@ export default class Projects extends Component {
             <a href="https://rwbrockhoff.github.io/oranges/"><button className="portButton wow fadeIn"><i className="fab fa-github"/> github </button></a> 
             </div>
             <br/>
-            <div className="projectText">
+            <div className="project-text flex column">
             <p> A full-stack, responsive game based on Apples to Apples. Built mobile-first in React, using socket.io as the bulk of the technology to communicate game information.</p> 
   
             <li> Utilizes socket.io for web-socket communication</li>
@@ -58,7 +58,7 @@ export default class Projects extends Component {
             <li> Emphasis on responsive design </li>
             </div>
   
-            <div className="screen wow fadeInLeft" style={{paddingLeft:'50px'}}>
+            <div className="screen center wow fadeInLeft" style={{paddingLeft:'50px'}}>
             <img className="iphone" src={iphone}/>
             <img className="demo-mobile" src={orangesDemo}/>
             </div>
@@ -74,7 +74,7 @@ export default class Projects extends Component {
             <a href="https://rwbrockhoff.github.io/tovue/"><button className="portButton wow fadeIn"><i className="fab fa-github"/> github </button></a>
             </div>
             <br/>
-            <div className="projectText">
+            <div className="project-text flex column">
             <p> A full-stack todo list app built with Vue to demonstrate enthusiam towards new technology. Akt is built as a clone of Wunderlist. Akt uses Vuex, Vue Routing, Bootstrap, Auth0, and Postgres.  </p> 
   
             <li> Uses Vuex for state management </li>
@@ -82,7 +82,7 @@ export default class Projects extends Component {
             <li> Stores data as an array type in Postgres </li>
             </div>
   
-            <div className="screen wow fadeInRight">
+            <div className="screen center wow fadeInRight">
             <img className="mac" src={mac}/>
             <img className="demo" src={aktScreen}/>
             </div>
@@ -100,7 +100,7 @@ export default class Projects extends Component {
             <a href="https://github.com/rwbrockhoff/blok"><button className="portButton wow fadeIn"><i className="fab fa-github"/> github </button></a> 
             </div>
             <br/>
-            <div className="projectText">
+            <div className="project-text flex column">
             <p> React Native application for the pomodoro technique, using a custom built timer, React Native elements, and Animatable for animations. All graphics designed in Illustrator for app launch on the Play Store. </p> 
   
             <li> Released React Native application </li>
@@ -108,7 +108,7 @@ export default class Projects extends Component {
             <li> Develop understanding of Gradle and build releases </li>
             </div>
   
-            <div className="screen wow fadeInLeft" style={{paddingLeft:'50px'}}>
+            <div className="screen center wow fadeInLeft" style={{paddingLeft:'50px'}}>
             <img className="iphone" src={iphone}/>
             <img className="demo-mobile" src={blokScreen}/>
             </div>
@@ -126,7 +126,7 @@ export default class Projects extends Component {
                 <a href="https://rwbrockhoff.github.io/ecrm/"><button className="portButton wow fadeIn"><i className="fab fa-github"/> github </button></a>
             </div>
       <br/>
-      <div className="projectText">
+      <div className="project-text flex column">
       <p> CRM web application built in React for professional photographers. Focuses on reusable components, using many tables and joins in Postgres, and incorporating Material UI and Bootstrap for a clean design.</p> 
 
       <li> Focuses on reusable components </li>
@@ -134,15 +134,12 @@ export default class Projects extends Component {
       <li> Incorporates Material UI and Bootstrap </li>
       </div>
 
-            <div className="screen wow fadeInRight">
+            <div className="screen center wow fadeInRight">
             <img className="mac" src={mac}/>
             <img className="demo" src={lookingFoxDemo}/>
             </div>
-  </div>
-
-        
-        
-        </div>
+        </div>  
+    </div>
     )
   }
 }

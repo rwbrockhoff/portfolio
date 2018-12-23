@@ -4,7 +4,7 @@ import profile from '../../assets/profile.png'
 
 export default () => {
   return (
-    <div className='about'>
+    <div className='about flex column'>
       <h1 className="abouttext wow fadeInUp"><i className="fas fa-angle-down"/></h1>
       <div className="aboutsection wow fadeInUp">
       <div className="aboutleft">

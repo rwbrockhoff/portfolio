@@ -4,9 +4,7 @@ body {
   font-family: 'Mukta Malar';
 }
 
-div.Main {
-  display: flex;
-  flex-direction: column;
+div.main {
   flex-wrap: wrap;
 }
 
@@ -32,38 +30,33 @@ div.stars {
     margin-left: 0vw;
   }
 }
-div.mainHeader {
+
+div.main-header {
   height: 100vh;
   background-image: url('./assets/back.svg');
   color: white;
   background-repeat: none;
   background-size: cover;
   margin-top: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   animation: fadeinHeader 0.3s linear;
 }
-div.mainHeader div.logobar {
+div.main-header div.logo-bar {
   height: 75px;
   position: absolute;
   left: 25px;
   top: 5px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   font-size: 2em;
   font-weight: 700;
 }
-div.mainHeader div.logobar img.logo {
+div.main-header div.logo-bar img.logo {
   height: 100%;
   margin-right: 5px;
 }
 
-div.mainHeader h1 {
+div.main-header h1 {
   font-size: 4em;
 }
-div.mainHeader h2 {
+div.main-header h2 {
   font-weight: 200;
   margin-top: -20px;
   letter-spacing: 2px;
@@ -85,19 +78,12 @@ navbar li {
 navbar li:hover {
   border-bottom: 1px solid white;
 }
-div.mainHeader>div.headertext {
-  display: flex;
-  flex-direction: column;
-}
 
-div.headertext {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+div.header-text {
   margin-bottom: 160px;
 }
 
-div.mainBody {
+div.main-body {
   height: 100vh;
   z-index:2;
   position: relative;
@@ -106,10 +92,8 @@ div.mainBody {
 div.about {
   width: 100%;
   height: 40vh;
-  display: flex;
   justify-content: flex-start;
   align-items: center;
-  flex-direction: column;
 }
 div.about h1 {
   font-size: 2.5em;
@@ -261,26 +245,22 @@ div.projectbox button:hover {
   background: #3118f3;
 }
 
-div.projectText {
+div.project-text {
   width: 45vw;
   padding: 20px 20px;
   margin-left: 20px;
   margin-bottom: 20px;
   font-size: 1.2em;
-  display: flex;
   justify-content: center;
   align-items: left;
-  flex-direction: column;
 }
 
 div.screen {
   height: 100%;
   width: 20%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   margin-left: 200px;
 }
+
 img.mac {
   width: 450px;
 }
