@@ -190,10 +190,6 @@ div.indivIcon {
 
 div.projects {
   height: 220vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
   padding-top: 100px;
   position: relative;
   z-index: 2;
@@ -231,7 +227,7 @@ button.port-button {
   cursor: pointer;
 }
 
-div.buttonHolder {
+div.button-holder {
   width: 15%;
   height: 30px;
   padding: 20px 10px;
@@ -379,12 +375,8 @@ div.bottom {
 }
 
 
-div.footericons {
+div.footer-icons {
   width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
   height: 10vh;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -394,8 +386,8 @@ div.footericons {
   position: absolute;
   z-index:3;
 }
-/* #f7f5f5; */
-div.footericons i {
+
+div.footer-icons i {
   color: white;
   margin-right: 15px;
   
@@ -470,9 +462,7 @@ div.footericons i {
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
-    
     margin-bottom: 100px;
-    
   }
 
   h1.skillsTitle {
@@ -509,9 +499,6 @@ div.footericons i {
   div.screen {
     height: 100%;
     width: 20%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin-left:0;
   }
   img.mac {

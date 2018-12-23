@@ -37,7 +37,7 @@ class App extends Component {
       {/* This section is the background image for the footer and holds no content other than rendering CSS.  */}
       </div>
 
-      <div className='footericons'>
+      <div className='footer-icons center column'>
         <p style={{marginBottom: '-5px'}}>
          <a href='https://github.com/rwbrockhoff'> <i className="fab fa-github"/></a>
           <a href='https://www.linkedin.com/in/ryanbrockhoff/'><i className="fab fa-linkedin-in" style={{marginBottom: '5px'}}/></a>

@@ -13,13 +13,13 @@ import lookingFoxDemo from '../../assets/lookingFoxScreen.gif'
 export default class Projects extends Component {
   render() {
     return (
-        <div className="projects">
+        <div className="projects center column">
 
         <div className="projectbox wow fadeInUp">
   
         <h1 className="projectitle">duly notes</h1>
   
-            <div className="buttonHolder">
+            <div className="button-holder">
             <a href="https://www.dulynotes.com/#/"><button className="portButton wow fadeIn"> <i className="fas fa-bolt"/> live site </button></a>
   
             <a href="https://rwbrockhoff.github.io/note/ 
@@ -43,7 +43,7 @@ export default class Projects extends Component {
   
         <h1 className="projectitle">oranges</h1>
   
-        <div className="buttonHolder">
+        <div className="button-holder">
             
             <a href="https://oranges2oranges2.firebaseapp.com/"><button className="portButton wow fadeIn"> <i className="fas fa-bolt"/> live site </button></a>
   
@@ -68,7 +68,7 @@ export default class Projects extends Component {
   
         <h1 className="projectitle">akt</h1>
   
-        <div className="buttonHolder">
+        <div className="button-holder">
             <a href="https://aktlist.com/#/"><button className="portButton wow fadeIn"> <i className="fas fa-bolt"/> live site </button></a>
   
             <a href="https://rwbrockhoff.github.io/tovue/"><button className="portButton wow fadeIn"><i className="fab fa-github"/> github </button></a>
@@ -93,7 +93,7 @@ export default class Projects extends Component {
   
         <h1 className="projectitle">blok</h1>
   
-        <div className="buttonHolder">
+        <div className="button-holder">
             
             <a href="https://play.google.com/store/apps/details?id=com.blok"><button className="portButton wow fadeIn"> <i className="fab fa-google-play"/> play store </button></a>
   
@@ -120,7 +120,7 @@ export default class Projects extends Component {
   
   <h1 className="projectitle">looking fox</h1>
 
-            <div className="buttonHolder">
+            <div className="button-holder">
                 <a href="https://www.lookingfox.com"><button className="portButton wow fadeIn"> <i className="fas fa-bolt"/> live site </button></a>
     
                 <a href="https://rwbrockhoff.github.io/ecrm/"><button className="portButton wow fadeIn"><i className="fab fa-github"/> github </button></a>
