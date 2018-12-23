@@ -221,13 +221,14 @@ h1.projectitle {
   text-align: center;
 }
 
-button.portButton {
+button.port-button {
   background: #2814c5;
   color: white;
   border-radius: 5px;
   height: 30px;
   outline: none;
   font-size: 0.9em;
+  cursor: pointer;
 }
 
 div.buttonHolder {

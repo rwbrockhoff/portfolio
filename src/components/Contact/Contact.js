@@ -54,7 +54,7 @@ export default class Contact extends Component {
         onChange={(e) => this.setState({message: e.target.value})}
         />
         <button 
-        className="portButton"
+        className="port-button"
         onClick={this.sendEmail}
         ><i className="far fa-envelope"/>&nbsp; send </button>
         </div>

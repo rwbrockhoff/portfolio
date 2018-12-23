@@ -11,3 +11,7 @@
 .column {
     flex-direction: column;
 }
+
+li {
+    cursor: pointer;
+}
